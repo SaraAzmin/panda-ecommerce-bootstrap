@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda E-commerce</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/customstyle.css">
 </head>
 
 <body>
     <header>
         <!-- navbar start  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" width="200" alt="">
                 </a>
@@ -27,31 +28,31 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
 
         <!-- image slider start  -->
         <section class="container">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row bg-info bg-gradient d-flex align-items-center p-5">
+                        <div class="row slider-bg d-flex align-items-center p-5">
                             <div class="col-lg-7">
-                                <h1>X-box for your living room</h1>
+                                <h1 class="slider-title">X-box for your living room</h1>
                                 <p>This is the best x-box in the world for people who just want to waste time in front
                                     of fake sports.</p>
-                                <h1>$600</h1>
-                                <button class="btn-warning">Buy Now</button>
+                                <h1 class="price-text">$600</h1>
+                                <button class="btn-buy-now">Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -59,13 +60,13 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row bg-info bg-gradient d-flex align-items-center p-5">
+                        <div class="row slider-bg d-flex align-items-center p-5">
                             <div class="col-lg-7">
-                                <h1>Cool Dude Headphones</h1>
+                                <h1 class="slider-title">Cool Dude Headphones</h1>
                                 <p>This is the best headphone in the world for people who just want to waste time in
                                     front of funky world.</p>
-                                <h1>$420</h1>
-                                <button class="btn-warning">Buy Now</button>
+                                <h1 class="price-text">$420</h1>
+                                <button class="btn-buy-now">Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -73,13 +74,13 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row bg-info bg-gradient d-flex align-items-center p-5">
+                        <div class="row slider-bg d-flex align-items-center p-5">
                             <div class="col-lg-7">
-                                <h1>Mega LCD TV for sports</h1>
+                                <h1 class="slider-title">Mega LCD TV for sports</h1>
                                 <p>This is the best x-box in the world for people who just want to waste time in front
                                     of fake sports.</p>
-                                <h1>$1600</h1>
-                                <button class="btn-warning">Buy Now</button>
+                                <h1 class="price-text">$1600</h1>
+                                <button class="btn-buy-now">Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -104,7 +105,7 @@
     <main>
 
         <!-- category part start  -->
-        <section class="container my-5">
+        <section class="container my-5 categories">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div
@@ -131,7 +132,7 @@
         </section>
 
         <!-- shoes part start  -->
-        <section class="container my-5">
+        <section id="shoes" class="container my-5">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -143,7 +144,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn-warning">Buy Now</button>
+                            <button class="btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -156,7 +157,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn-warning">Buy Now</button>
+                            <button class="btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -170,7 +171,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn-warning">Buy Now</button>
+                            <button class="btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -178,7 +179,7 @@
         </section>
 
         <!-- backpack part start  -->
-        <section class="container my-5">
+        <section id="backpack" class="container my-5">
             <h1>Backpack</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -190,7 +191,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn-warning">Buy Now</button>
+                            <button class="btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -203,7 +204,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn-warning">Buy Now</button>
+                            <button class="btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -217,7 +218,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn-warning">Buy Now</button>
+                            <button class="btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -225,14 +226,14 @@
         </section>
 
         <!-- subscribe part start  -->
-        <section style="height: 300px;"
-            class="container my-5 d-flex justify-content-center align-items-center bg-info rounded-3">
+        <section id="subscribe" style="height: 300px;"
+            class="container my-5 d-flex justify-content-center align-items-center slider-bg rounded-3">
             <div>
                 <h1>Let's stay in touch</h1>
                 <p>Get updates on sales,special and more</p>
-                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Your Email" class="form-control">
                 <br>
-                <button class="btn btn-warning">SUBMIT</button>
+                <button class="btn btn-buy-now">SUBMIT</button>
             </div>
         </section>
     </main>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@400;500;700&display=swap');
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 100px;
+}
+.slider-bg{
+background-color: #feeae9;
+}
+.slider-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.categories img{
+    width: 100px;
+}
+.btn-buy-now{
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: palevioletred;
+}
+.price-text{
+    color: palevioletred;
+}
